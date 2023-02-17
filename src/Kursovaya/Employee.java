@@ -19,26 +19,39 @@ public class Employee {
     }
 
     // Getter's
-    public String getEmployeeFullName() { return employeeFullName;}
-    public int getDepartment() { return department;}
-    public float getSalary() { return salary;}
-    public int getId() {return Id;}
+    public String getEmployeeFullName() {
+        return employeeFullName;
+    }
+
+    public int getDepartment() {
+        return department;
+    }
+
+    public float getSalary() {
+        return salary;
+    }
+
+    public int getId() {
+        return Id;
+    }
 
 
-    public String toString(){
-        return this.employeeFullName + " отдел " + this.department + " зарплата " + this.salary;}
+    public String toString() {
+        return this.employeeFullName + " отдел " + this.department + " зарплата " + this.salary;
+    }
 
 
-    public void setDepartment (int department) {this.department = department;}
-    public void setSalary (int salary) {this.salary = salary;}
+    public void setDepartment(int department) {
+        this.department = department;
+    }
 
-
-
-
-
-
+    public void setSalary(int salary) {
+        this.salary = salary;
+    }
 
 }
+
+
 
 
 
